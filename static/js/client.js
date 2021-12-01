@@ -1,4 +1,4 @@
-const socket = io('https://adichatappserver.herokuapp.com/', { transports: ['websocket'] });
+const socket = io('https://sunnychatserver.herokuapp.com/', { transports: ['websocket'] });
 
 const form = document.getElementById('send-container');
 const messageInput = document.getElementById('messageInp');
