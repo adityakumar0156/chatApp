@@ -1,3 +1,11 @@
+.footer {
+    background-color: rgb(114 181 140);
+    height: 40px;
+    margin-top: 12px;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Hind Siliguri', sans-serif;
+}
 .logo {
     display: block;
     margin: auto;
