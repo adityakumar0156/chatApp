@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="icon" type="image/png" href="./static/media/favicon.png" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri&display=swap" rel="stylesheet">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat App</title>
+    <script defer src='http://localhost:8000/socket.io/socket.io.js'></script>
+    <script defer src="./static/js/client.js"></script>
+    <link rel="stylesheet" href="./static/css/style.css">
+</head>
+
+<body>
+    <nav>
+        <img src="./static/media/download.jpg" alt="" class="logo">
+
+    </nav>
+
+    <div id="typing">***</div>
+    <br><br><br>
+    <div class="container">
+        <!-- <div class="message right">dfdgdf joined the chat
+            <div class="name"></div>
+        </div> -->
+
+    </div>
+    <class class="send">
+        <form action="#" id="send-container">
+            <input type="text" name="messageInp" id="messageInp" placeholder="Message...">
+            <button class="btn" type="submit">Send</buttton>
+
+        </form>
+    </class>
+</body>
+
+</html>
