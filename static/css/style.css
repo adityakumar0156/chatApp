@@ -1,0 +1,127 @@
+.logo {
+    display: block;
+    margin: auto;
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+}
+
+.container {
+    max-width: 955px;
+    background-color: rgb(71, 65, 65);
+    margin: auto;
+    height: 60vh;
+    overflow-y: auto;
+    position: relative;
+}
+
+#typing {
+    padding: 5px 15px;
+    color: white;
+    text-align: center;
+    /* margin: auto; */
+    margin-top: 10px;
+    background-color: #263d38;
+    height: 25px;
+    position: absolute;
+    text-align: center;
+    border-radius: 15px;
+    font-size: 110%;
+    left: 48%;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+
+.message {
+    max-width: 33%;
+    min-width: 22%;
+    padding: 14px;
+    margin: 25px 8px;
+    border: 2px solid rgb(0, 71, 60);
+    border-radius: 10px;
+    position: relative;
+    font-size: 100%;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+
+.left {
+    float: left;
+    clear: both;
+    background-color: rgb(194, 224, 219);
+}
+
+.right {
+    float: right;
+    clear: both;
+    background-color: rgb(109, 209, 179);
+}
+
+#send-container {
+    display: block;
+    margin: auto;
+    text-align: center;
+    max-width: 985px;
+    width: 75%;
+    /* background-color: #51ad94; */
+}
+
+.joined {
+    padding: 0px 15px;
+    color: white;
+    text-align: center;
+    max-width: 285px;
+    background-color: #16616e;
+    height: 33px;
+    border-radius: 15px;
+    margin: 20px auto;
+    clear: both;
+    font-size: 90%;
+}
+
+.time {
+    position: absolute;
+    bottom: 0px;
+    font-size: 65%;
+    right: 10px;
+}
+
+.name {
+    padding: 0px 15px;
+    color: white;
+    text-align: center;
+    /* width: 85px; */
+    background-color: #5b8078;
+    height: 16px;
+    position: absolute;
+    left: 0px;
+    top: -22px;
+    border-radius: 15px;
+    font-size: 80%;
+}
+
+#join-container {
+    display: block;
+    margin: auto;
+    text-align: center;
+    max-width: 985px;
+    width: 65%;
+}
+
+#messageInp {
+    width: 92%;
+    /* border: 2px solid black; */
+    border-radius: 6px;
+    height: 27px;
+    margin: 10px 0px;
+    background-color: #94cfc0;
+}
+
+.btn {
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 6px;
+    height: 34px;
+}
+
+body {
+    background-color: rgb(159, 200, 175);
+}
